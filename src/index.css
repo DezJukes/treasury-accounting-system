@@ -3,6 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+body {
+  background: url("./plm-bg.jpg");
+  background-size: cover;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   --radius: 0.625rem;
