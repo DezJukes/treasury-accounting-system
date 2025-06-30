@@ -6,7 +6,7 @@ function TreasuryEntry() {
     <main className="bg-gray-100">
       <section className="flex justify-around items-center p-4">
         <div className="flex flex-col gap-3">
-          <Label>Student #</Label>
+          <Label className="">Student #</Label>
           <Input className="w-[320px]" type="number" placeholder="Enter student number..." />
         </div>
 
