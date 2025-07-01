@@ -26,6 +26,31 @@ body {
   --color-textBase: #F2F1EC;
 }
 
+button {
+  cursor: pointer;
+}
+
+/* Hover animations for the btn */
+.btn-clear:hover {
+  transform: scale(1.1);
+  background: #59595f;
+}
+
+.btn-clear:focus {
+  transform: scale(0.9);
+  background: #2b2b2e;
+}
+
+.btn-generate:hover {
+  transform: scale(1.1);
+  background: #017431;
+}
+
+.btn-generate:focus {
+  transform: scale(0.9);
+  background: #006229;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   --radius: 0.625rem;

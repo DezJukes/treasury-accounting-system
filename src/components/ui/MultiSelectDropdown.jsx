@@ -17,7 +17,6 @@ const MultiSelectDropdown = () => {
 
   return (
     <div className="w-full max-w-md">
-      <h2 className="text-h4 font-bold mb-2">Select States</h2>
       <Select className='border-2 border-indigoHue rounded-sm'
         options={options}
         isMulti
