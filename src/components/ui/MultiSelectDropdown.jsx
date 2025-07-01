@@ -1,15 +1,17 @@
 import React from 'react';
 import Select from 'react-select';
 
+  // Collection Documentation
 const options = [
-  { value: 'alabama', label: 'Alabama' },
-  { value: 'alaska', label: 'Alaska' },
-  { value: 'arizona', label: 'Arizona' },
-  { value: 'arkansas', label: 'Arkansas' },
-  { value: 'california', label: 'California' },
-  { value: 'colorado', label: 'Colorado' },
-  { value: 'connecticut', label: 'Connecticut' },
-  { value: 'delaware', label: 'Delaware' },
+  { value: 'certs', label: 'GMC' },
+  { value: 'certs', label: 'Certification' },
+  { value: 'certs', label: 'Verification' },
+  { value: 'certs', label: 'CHED' },
+  { value: 'certs', label: 'Course Description' },
+  { value: 'docstamp', label: 'Document Stamps' },
+  { value: 'id', label: 'Lost ID' },
+  { value: 'diploma-fee', label: 'Lost Disploma' },
+  { value: 'diploma-fee', label: 'Graduation Fee' },
 ];
 
 const MultiSelectDropdown = () => {

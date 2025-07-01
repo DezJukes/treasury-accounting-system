@@ -93,7 +93,7 @@ function TreasuryEntry() {
         <section className="bg-indigoHue">
           <section>
             <div>
-              <h1 className="text-h2 text-textBase">Summary</h1>
+              <h1 className="text-h2 text-textBase font-bold">Summary</h1>
               <hr className="border-t-2 border-white mt-4 py-4 w-full" />
             </div>
           </section>
