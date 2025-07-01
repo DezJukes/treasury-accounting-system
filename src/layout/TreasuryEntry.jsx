@@ -16,11 +16,11 @@ function TreasuryEntry() {
           <section className="flex items-center px-10 mt-10 gap-10">
             <div className="flex flex-col gap-3">
               <Label className="text-h4 font-bold">Student #</Label>
-              <Input className="text-small border-2border-indigoHue w-[320px]" type="number" placeholder="Enter student number..." />
+              <Input className="text-small border-2 border-indigoHue w-[320px]" type="number" placeholder="Enter student number..." />
             </div>
             <div className="flex flex-col gap-3">
               <Label className="text-h4 font-bold">Student name</Label>
-              <Input className="text-small border-2border-indigoHue w-[320px]" type="text" placeholder="Enter student name..." />
+              <Input className="text-small border-2 border-indigoHue w-[320px]" type="text" placeholder="Enter student name..." />
             </div>
           </section>
 
@@ -31,15 +31,15 @@ function TreasuryEntry() {
               <Label className="text-h4 font-bold">Document Preset</Label>
               <RadioGroup className="flex" defaultValue="default-option">
                 <div className="flex items-center space-x-2">
-                  <RadioGroupItem className="border-2border-indigoHue" value="default-option" id="default-option" />
+                  <RadioGroupItem className="border-2 border-indigoHue" value="default-option" id="default-option" />
                   <Label htmlFor="default-option">None</Label>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <RadioGroupItem className="border-2border-indigoHue" value="scholarship-option" id="scholarship-option" />
+                  <RadioGroupItem className="border-2 border-indigoHue" value="scholarship-option" id="scholarship-option" />
                   <Label htmlFor="scholarship-option">Scholarship</Label>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <RadioGroupItem className="border-2border-indigoHue" value="graduating-option" id="graduating-option" />
+                  <RadioGroupItem className="border-2 border-indigoHue" value="graduating-option" id="graduating-option" />
                   <Label htmlFor="graduating-option">Graduating</Label>
                 </div>
               </RadioGroup>
@@ -62,22 +62,22 @@ function TreasuryEntry() {
               <Label className="text-h4 font-bold">Document Preset</Label>
               <RadioGroup className="flex" defaultValue="default-option">
                 <div className="flex items-center space-x-2">
-                  <RadioGroupItem className="border-2border-indigoHue" value="default-option" id="default-option" />
+                  <RadioGroupItem className="border-2 border-indigoHue" value="default-option" id="default-option" />
                   <Label htmlFor="default-option">None</Label>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <RadioGroupItem className="border-2border-indigoHue" value="scholarship-option" id="scholarship-option" />
+                  <RadioGroupItem className="border-2 border-indigoHue" value="scholarship-option" id="scholarship-option" />
                   <Label htmlFor="scholarship-option">Scholarship</Label>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <RadioGroupItem className="border-2border-indigoHue" value="graduating-option" id="graduating-option" />
+                  <RadioGroupItem className="border-2 border-indigoHue" value="graduating-option" id="graduating-option" />
                   <Label htmlFor="graduating-option">Graduating</Label>
                 </div>
               </RadioGroup>
             </div>
             <div className="flex flex-col gap-3">
               <Label className="text-h4 font-bold">Amount</Label>
-              <Input className="text-small border-2border-indigoHue w-[320px]" type="number" placeholder="Enter amount..." />
+              <Input className="text-small border-2 border-indigoHue w-[320px]" type="number" placeholder="Enter amount..." />
             </div>
           </section>
 
