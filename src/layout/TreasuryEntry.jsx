@@ -7,7 +7,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 function TreasuryEntry() {
   return (
     <main>
-      <section className="flex m-20 gap-10"> 
+      <section className="flex justify-center items-center m-20 gap-10"> 
         {/* Left Side: Receipt Inputs */}
         <section className="bg-white shadow-xs shadow-black rounded-2xl">
 
