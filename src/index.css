@@ -9,12 +9,21 @@ body {
 }
 
 @theme {
-  --color-avocado-100: oklch(0.99 0 0);
-  --color-avocado-200: oklch(0.98 0.04 113.22);
-  --color-avocado-300: oklch(0.94 0.11 115.03);
-  --color-avocado-400: oklch(0.92 0.19 114.08);
-  --color-avocado-500: oklch(0.84 0.18 117.33);
-  --color-avocado-600: oklch(0.53 0.12 118.34);
+  /* Color Palette */
+  --color-deepBlue: #2A3195;
+  --color-indigoHue: #464DAB;
+  --color-sandBeige: #ECDEBC;
+  --color-crimsonRed: #9D0201;
+  --color-freshGreen: #00A546;
+  --color-goldAccent: #E6BF3B;
+
+  /* Typography */
+  --text-h1: 40px;
+  --text-h2: 30px;
+  --text-h3: 20px;
+  --text-h4: 14px;
+  --text-small: 12px;
+  --color-textBase: #F2F1EC;
 }
 
 :root {
@@ -129,6 +138,7 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
