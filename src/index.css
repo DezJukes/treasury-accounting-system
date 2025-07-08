@@ -1,11 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-
 @custom-variant dark (&:is(.dark *));
 
 body {
   background: #F2F1EC url("./plm-bg.jpg");
   background-size: cover;
+  height: 100vh;
 }
 
 @theme {
@@ -23,6 +23,7 @@ body {
   --text-h3: 20px;
   --text-h4: 14px;
   --text-small: 12px;
+  
   --color-textBase: #F2F1EC;
 }
 

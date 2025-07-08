@@ -1,30 +1,35 @@
 import React from 'react';
 import Select from 'react-select';
+import makeAnimated from 'react-select/animated';
+import "@/components/styles/multiselect.css";
+
+const animatedComponents = makeAnimated();
 
   // Collection Documentation
 const options = [
-  { value: 'certs', label: 'GMC' },
+  { value: 'gmc', label: 'GMC' },
   { value: 'certs', label: 'Certification' },
-  { value: 'certs', label: 'Verification' },
-  { value: 'certs', label: 'CHED' },
-  { value: 'certs', label: 'Course Description' },
+  { value: 'ver', label: 'Verification' },
+  { value: 'ched', label: 'CHED' },
+  { value: 'course', label: 'Course Description' },
   { value: 'docstamp', label: 'Document Stamps' },
   { value: 'id', label: 'Lost ID' },
-  { value: 'diploma-fee', label: 'Lost Disploma' },
-  { value: 'diploma-fee', label: 'Graduation Fee' },
+  { value: 'lost-dio', label: 'Lost Disploma' },
+  { value: 'grad-fee', label: 'Graduation Fee' },
 ];
 
 const MultiSelectDropdown = () => {
   const [selectedOptions, setSelectedOptions] = React.useState([]);
 
   return (
-    <div className="w-full max-w-md">
-      <Select className='border-2 border-indigoHue rounded-sm'
+    <div className="multiselect-div">
+      <Select className='multiselect border-2 border-indigoHue rounded-sm'
         options={options}
+        components={animatedComponents}
         isMulti
         value={selectedOptions}
         onChange={setSelectedOptions}
-        placeholder="Search and select states..."
+        placeholder="Search and select documents..."
       />
     </div>
   );
