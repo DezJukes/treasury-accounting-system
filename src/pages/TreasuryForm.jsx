@@ -1,9 +1,11 @@
 import TreasuryEntry from "../layout/TreasuryEntry"
+import ManualEntry from "../layout/ManualEntry"
 
 function TreasuryForm() {
   return (
     <main>
-        <TreasuryEntry />
+        {/* <TreasuryEntry /> */}
+        <ManualEntry />
     </main>
   )
 }

@@ -3,13 +3,24 @@
 @custom-variant dark (&:is(.dark *));
 
 body {
-  background: #F2F1EC url("./plm-bg.jpg");
+  background-color: #F2F1EC; 
   background-size: cover;
   height: 100vh;
 }
 
 @theme {
   /* Color Palette */
+  --color-plmWhite: #F2F1EC;
+  --color-plmRed: #9D0201;
+  --color-plmLightBlue: #464DAB;
+  --color-plmDarkBlue: #2A3195;
+  --color-plmTaupe: #ECDEBC;
+  --color-plmGreen: #00A546;
+  --color-plmYellow: #E6BF3B;
+
+  --color-plmDarkGrey: #71717A;
+  --color-plmLightGrey: #A2A2A4;
+
   --color-deepBlue: #2A3195;
   --color-indigoHue: #464DAB;
   --color-sandBeige: #ECDEBC;
@@ -21,10 +32,16 @@ body {
   --text-h1: 40px;
   --text-h2: 30px;
   --text-h3: 20px;
-  --text-h4: 14px;
-  --text-small: 12px;
-  
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
   --color-textBase: #F2F1EC;
+
+  /* Responsiveness */
+  --breakpoint-*: initial;
+  --breakpoint-tablet: 40rem;
+  --breakpoint-laptop: 64rem;
+  --breakpoint-desktop: 80rem;
 }
 
 button {
